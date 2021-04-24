@@ -16,8 +16,8 @@ const titleCased = () => {
     let newArr = str.split(' ');
      let stuff = newArr.map(t => {
       return t[0].toUpperCase() + t.slice(1);
-    });
-    return stuff.join(' ');
+    }).join(" ")
+    return stuff;
   });
 }
 console.log(titleCased());
